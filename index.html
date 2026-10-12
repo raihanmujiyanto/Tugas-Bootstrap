@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Mahasiswa Semester 3</title>
+    <!-- link css bootsrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="asset/Skema kita.png" height="80">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Profile</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            About
+                        </a>
+                        <!-- Dropdown menu -->
+                        <ul class="dropdown-menu p-3" style="width: 650px;">
+                            <div class="row">
+                                <!-- card 1  Dropdown mahasiswa -->
+                                <div class="col-4">
+                                    <div class="card" style="width: 10rem;">
+                                        <img src="asset/Profile.jpeg" class="card-img-top" alt="Profile">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Mahasiswa Psti</h4>
+                                            <p class="card-text">Saya adalah Mahasiswa PSTI</p>
+                                            <a href="https://www.instagram.com/szyhannn?xtok=MWk4ajg4endiejZnYQ=="
+                                                class="btn btn-warning">Instagram</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- card 2 Dropdown  -->
+                                <div class="col-4">
+                                    <div class="card" style="width: 10rem;">
+                                        <img src="asset/DutaKampus.jpeg" class="card-img-top" alt="Profile">
+                                        <div class="card-body">
+                                            <h5 class="card-title">DutaKampus</h5>
+                                            <p class="card-text">Saya adalah Duta Pendidikan</p>
+                                            <a href="https://www.instagram.com/putraputri.upipwk?rpxt=NHMwNXZrcG1jNW94"
+                                                class="btn btn-primary">Instagram</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- card 3 Dropdown -->
+                                <div class="col-4">
+                                    <div class="card" style="width: 10rem;">
+                                        <img src="asset/Sekretaris.jpeg" class="card-img-top" alt="Profile">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Sekretaris Nexoraty</h4>
+                                            <p class="card-text">Saya adalah Sekretaris Nexoraty</p>
+                                            <a href="https://www.instagram.com/nexoraty.25?xtok=MnB0d253bzc1emVi"
+                                                class="btn btn-primary">Instagram</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- tombol Login -->
+            <div class="button">
+                <button type="button p-3" class="btn btn-light">Daftar</button>
+                <button type="button" class="btn btn-primary">Login</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero section -->
+    <div id="home" class="bg-primary bg-gradient text-white text-center py-5">
+        <div class="container">
+            <h1>Saya adalah Mahasiswa <span class="badge text-bg-warning">PSTI</span> Upi Purwakarta</h1>
+            <p> Saya berasal dari Cirebon, saat ini saya sedang menempuh kuliah dengan prodi PSTI yang sekarang sudah
+                memasuki semester 3</p>
+        </div>
+    </div>
+
+    <!-- About Me -->
+    <div class="bg-warning bg-gradient text-white text-center py-3">
+        <!-- card section -->
+        <div class="row justify-content-between g-3">
+            <!-- card 1 -->
+            <div class="col-6 col-md-3">
+                <div class="card text-bg-dark w-100">
+                    <img src="asset/Almet .jpeg" class="card-img" alt="Foto mahasiswa">
+                    <div class="card-img-overlay d-flex flex-column justify-content-end text-center text-warning">
+                        <h2 class="card-title"> Mahasiswa Upi</h2>
+                        <p class="card-text">Saya adalah mahasiswa Universitas Pendidikan Indonesia</p>
+                        <p class="card-text"><small>Upi kampus di Purwakarta</small></p>
+                    </div>
+                </div>
+            </div>
+            <!-- card 2 -->
+            <div class="col-6 col-md-3">
+                <div class="card text-bg-dark w-100">
+                    <img src="asset/Sekretaris.jpeg" class="card-img" alt="Foto mahasiswa">
+                    <div class="card-img-overlay d-flex flex-column justify-content-end text-center text-warning">
+                        <h2 class="card-title"> Sekretaris Nexoraty</h2>
+                        <p class="card-text">Saya adalah Sekretaris PSTI angkatan 2025 (Nexoraty)</p>
+                        <p class="card-text"><small>Upi kampus di Purwakarta</small></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-6 col-md-3">
+                <div class="card text-bg-dark w-100">
+                    <img src="asset/DutaKampus.jpeg" class="card-img" alt="Foto mahasiswa">
+                    <div class="card-img-overlay d-flex flex-column justify-content-end text-center text-warning">
+                        <h2 class="card-title"> Duta Pendidikan</h2>
+                        <p class="card-text">Saya adalah Duta Pendidikan Upi kampus di Purwakarta</p>
+                        <p class="card-text"><small>Upi kampus di Purwakarta</small></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="col-6 col-md-3">
+                <div class="card text-bg-dark w-100">
+                    <img src="asset/Profile.jpeg" class="card-img" alt="Foto mahasiswa">
+                    <div class="card-img-overlay d-flex flex-column justify-content-end text-center text-warning">
+                        <h2 class="card-title">Mahasiswa PSTI</h2>
+                        <p class="card-text">Saya adalah mahasiswa prodi PSTI</p>
+                        <p class="card-text"><small>Upi kampus di Purwakarta</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Kontak -->
+        <div id="kontak" class="bg-light py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Contact Me </h2>
+                <!-- formulir -->
+                <form id="formKontak" class="bg-warning p-4 rounded shadow-lg mx-auto" style="max-width: 500px;" onsubmit="return false">
+                    <!-- input nama -->
+                    <div class="mb-3">
+                        <label for="input-nama" class="form-label" name="nama" >Nama</label>
+                        <input type="text" class="form-control" id="input-nama" placeholder="Masukan Nama anda">
+                    </div>
+                    <!-- input email  -->
+                    <div class="mb-3">
+                        <label for="InputEmail1" class="form-label" name="email">Email address</label>
+                        <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">Kami tidak akan pernah meyebarluaskan emailmu. </div>
+                    </div>
+                    <!-- imput Pesan -->
+                    <div class="mb-3">
+                        <label for="input-pesan" class="form-label" name="pesan" >Pesan</label>
+                        <textarea class="form-control" id="input-pesan" rows="3"></textarea>
+                    </div>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Kirim 
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Apakah anda Sudah yakin?</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>And tidak bisa mengulangi lagi setelah di kirim</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kembali</button>
+                            <button type="button" class="btn btn-success" onclick="kirimForm()">Ya saya sudah yakin</button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+
+
+    <!-- js boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+<script>
+    function kirimForm() {
+        const form = document.getElementById("formKontak");
+
+        if (!form) {
+            alert("Form tidak ditemukan!");
+            return;
+        }
+
+        alert("Konfirmasi berhasil!");
+
+        form.reset();
+
+        const modalElement = document.getElementById("staticBackdrop");
+        const modal = bootstrap.Modal.getInstance(modalElement);
+
+        if (modal) {
+            modal.hide();
+        }
+    }
+</script>
+
+</body>
+
+</html>
